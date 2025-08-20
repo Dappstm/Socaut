@@ -3,7 +3,7 @@ from typing import List
 from .base import BaseSource
 from ..models import Article
 
-API_KEY = os.getenv("NEWSAPI_KEY", "4f4df1fbed37481a8bb77417be8aec9b")
+API_KEY = os.getenv("NEWSAPI_KEY")
 
 # Endpoint templates
 ENDPOINTS = {
